@@ -8,8 +8,8 @@
     background-color: #0f1111;
     color:white;
     display:flex;
-    align-items: center; /* sare elements centre m aajayenge from cross axis */
-    justify-content: space-evenly;  /*left se right tk sare content ko evenly spread kr dega */
+    align-items: center; 
+    justify-content: space-evenly;  
 }
 .nav-logo{
     height: 50px;
@@ -68,7 +68,7 @@
 .search-icon{
     width:45px;
     display:flex;
-    justify-content: center; /* horizontally centre m aajayega */
+    justify-content: center; 
     align-items: center;
     font-size: 1.2rem;
     background-color: #e9b013;
@@ -106,14 +106,14 @@ span{
 .panel{
     height: 40px;
     background-color: #222f3d;
-    display: flex;  /*sare items row ki form m arrange ho jayenge  */
+    display: flex; 
     color: white;  
-    align-items: center; /* sare items centre m aajayenge vertically */
-    justify-content: space-evenly;  /* sare items centre m aajayenge horizontally */
+    align-items: center; 
+    justify-content: space-evenly;  
 
 }
 .panel-opt p{
-    display: inline; /*sale text same line m aa jayenge*/
+    display: inline;
     margin-left: 15px;
 }
 .panel-opt{
@@ -130,14 +130,13 @@ span{
     background-size: cover;
     height: 350px;
     display: flex;
-    align-items: flex-end; /*ye us box ko bottom m lejayega*/
+    align-items: flex-end;
     justify-content: center;
 }
 .hero-msg{
     background-color: white;
     color: black;
     height: 40px;
-    /* display: flex;  iske contents ya text jo h vo cenntre m aajayenge */
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
@@ -160,7 +159,7 @@ span{
    width: 23%;
    background-color: white;
    padding: 20px 0px 15px;
-   margin-top: 15px; /*box upar wale box se thoda distance pr hoga*/
+   margin-top: 15px;
 }
 .box-img{
     height: 300px;
@@ -193,7 +192,7 @@ footer{
     background-color: #222f3d;
     color: white;
     height: 300px;
-    display: flex; /* sari ul ek k baad ek single row me aajayengi*/
+    display: flex; 
     justify-content: space-evenly;
     
 }
@@ -201,7 +200,7 @@ ul{
     margin-top: 20px;
 }
 ul a{
-    display: block;  /* anchor tag k content vertically ek single line m aajayenge */
+    display: block;  
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
